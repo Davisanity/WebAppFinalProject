@@ -1,0 +1,26 @@
+{
+  "name": "GuardU",
+  "description": "A Simple Secureity Application",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Davidlin",
+    "url": "https://github.com/davsanity"
+  },
+  "permissions": {
+    "desktop-notification": {
+      "description": "Required to send notifications"
+    }
+  },
+
+  "fullscreen":true,
+  "messages": [
+    { "alarm": "/index.html" },
+    { "notification": "/index.html" }
+  ]
+}
