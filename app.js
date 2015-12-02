@@ -8,14 +8,13 @@
     		document.getElementById('b1').src ="guard_press.png"
     		console.log("mouse")
     	},
-    	mouseOut()
-    	{
+    mouseOut()
+      {
         console.log("out")
       	document.getElementById('b1').src ="guard.png"
    		}
 	};
-
-  exports.Start= Start;//fync.
+  exports.Start= Start;//func.
 })(window);
 window.addEventListener("load", function() {
   console.log("Hello World!");
