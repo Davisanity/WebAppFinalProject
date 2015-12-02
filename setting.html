@@ -1,8 +1,18 @@
 <html>
 <head>
 	<title>Settings</title>
+	<script src="setting.js"></script>
 </head>
 <body>
-	
+	<center>
+	Setting password</br>
+	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b1" style="width:200px; height:200px; text-align: center; font-size:150px " onkeydown="setPassword()">
+	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b2" style="width:200px; height:200px; text-align: center; font-size:150px " onkeydown="setPassword()">
+	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b3" style="width:200px; height:200px; text-align: center; font-size:150px " onkeydown="setPassword()">
+	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b4" style="width:200px; height:200px; text-align: center; font-size:150px " onkeydown="setPassword()">
+	<a href="index.html">
+	<button onclick="showPassword()" id="b5" >Set Password</button>
+	</a></center>
 </body>
 </html>
+

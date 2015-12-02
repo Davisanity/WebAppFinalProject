@@ -10,11 +10,12 @@
     	},
     	mouseOut()
     	{
+        console.log("out")
       	document.getElementById('b1').src ="guard.png"
    		}
 	};
-  }
-  exports.Start=new Start();
+
+  exports.Start= Start;//fync.
 })(window);
 window.addEventListener("load", function() {
   console.log("Hello World!");

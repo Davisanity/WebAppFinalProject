@@ -5,3 +5,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     start.mouseOver();
     start.mouseOut();
 });
+
+// document.addEventListener('deviceorientation', function(event) {
+// 	var protect = new Protect();
+//     protect.change();
+// });
