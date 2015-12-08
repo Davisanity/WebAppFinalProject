@@ -3,15 +3,16 @@
 	<title>Settings</title>
 	<script src="setting.js"></script>
 </head>
-<body style="padding-top:200px">
+<body style="padding-top:200px" background="background.png">
 	<center>
-	Setting password</br>
+	<font color="#DA8DB5">Setting password</font></br>
 	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b1" style="width:200px; height:200px; text-align: center; font-size:150px " onkeydown="setPassword()">
 	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b2" style="width:200px; height:200px; text-align: center; font-size:150px " onkeydown="setPassword()">
 	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b3" style="width:200px; height:200px; text-align: center; font-size:150px " onkeydown="setPassword()">
-	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b4" style="width:200px; height:200px; text-align: center; font-size:150px " onkeydown="setPassword()"></br>
+	<input onkeyup="value=value.replace(/[^\d]/g,'') " type="number" id="b4" style="width:200px; height:200px; text-align: center; font-size:150px " onkeypress="setPassword()"></br>
 	<a href="index.html">
-	<button onclick="showPassword()" id="b5" style="width:200px;">Set Password</button>
+	<button onclick="showPassword()" id="b5" style="width:200px;">
+	<font color="#DA8DB5">Set Password</font></button>
 	</a></center>
 	<!-- <button onclick="showPassword()" id="b6" >Show Password</button> -->
 </body>
